@@ -10,7 +10,7 @@ before_install:
   - export BUILD_TOOL="docker"
   - export IMAGE_PREFIX="quay.io/powercloud"
   - export ACME_SERVICE_NAME="acmeair-mainservice-java"
-  - export ACME_VERSION="1.0"
+  - export ACME_VERSION="1.1"
   - sudo apt-get update
   - sudo apt-get -y install maven
 
